@@ -10,7 +10,7 @@ class StartOptions:
         logo = tk.PhotoImage(file=LOGO)
         win.iconphoto(False, logo)
         win.config(bg=BG_COLOR)
-        win.title('AIDA64')
+        win.title('CPU-Go')
         win.wm_attributes('-alpha', 0.9)
         win.geometry(f'{WIN_WIDTH}x{WIN_HEIGHT}+{WIN_TOP_OFFSET}+{WIN_BOTTOM_OFFSET}')
         win.resizable(True, True)
