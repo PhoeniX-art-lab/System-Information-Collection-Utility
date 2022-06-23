@@ -74,6 +74,3 @@ def parse_string_from_cmd(command: str) -> list:
         except ValueError:
             break
     return res
-
-# 483
-# 470
